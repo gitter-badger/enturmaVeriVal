@@ -38,7 +38,7 @@ do: *.tex
 # Compila a cada alteração de qualquer arquivo *.tex ou de qualquer *.vhd dentro da pasta 'src'
 main: *.tex *.bib clean
 	clear
-	#./latex-git-log --author --width=5 --lang=en > ./conteudo/commit_log.tex
+	./latex-git-log --author --width=5 --lang=en > ./conteudo/commit_log.tex
 	pdflatex main.tex
 	clear
 	echo " ";\

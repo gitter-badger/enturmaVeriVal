@@ -1,3 +1,3 @@
-#Empresa Junior de Engenharia De Software
+#Trabalho da Disciplina de Verificação e Validação de Software
 
 ---
